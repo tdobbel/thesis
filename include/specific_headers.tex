@@ -1,0 +1,349 @@
+%\usepackage[includehead, includefoot, top=2.35cm, bottom=2.35cm, outer=3.5cm, inner=3.5cm]{geometry}
+\usepackage[includehead, includefoot, top=4.8cm, bottom=4.8cm, outer=4.5cm, inner=4.5cm]{geometry} % l'option showframe est juste pour avoir le cadre défini par les bordures (pour voir ce qui dépasse dans les figures ou equations par ex.) 
+\usepackage{bm}			%For bold symbols in math (command \bm)
+\usepackage{lmodern}		%Font: latin modern (enhanced computer modern)
+
+
+\usepackage{url}
+\usepackage{threeparttable}
+
+\usepackage{arydshln}
+
+\usepackage[font=small]{caption}
+
+\usepackage{color,calc,graphicx}
+\newsubfloat{figure}% Allow subfloats in figure environment
+
+\newcommand\red[1]{\textcolor{red}{#1}}
+\newcommand\blue[1]{\textcolor{blue}{#1}}
+
+\usepackage{geometry}
+\newdimen\mywidth
+\mywidth=0.91\textwidth
+\newdimen\mywidthmesh
+\mywidthmesh=0.80\textwidth
+%\setlength{\belowcaptionskip}{-20pt}
+\usepackage{siunitx} % for micro meters
+
+% \usepackage{tikz}
+% % \input{include/arrowsNew}
+% \usetikzlibrary{shapes.misc}
+% \tikzset{options/.code={\tikzset{#1}}} % just to compact the code
+% \tikzset{cross/.style={cross out, draw=black, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+% %default radius will be 1pt. 
+% cross/.default={1pt}}
+
+% \usetikzlibrary{decorations.pathmorphing, shadows}
+% %\usetikzlibrary{arrows}
+% \usetikzlibrary{shapes}
+
+% \usetikzlibrary{positioning,calc,patterns} 
+%\usetikzlibrary{external}
+%\tikzexternalize[prefix=tikzext/] 
+
+\usepackage{algorithm2e}
+
+
+%For the glossary:
+\usepackage{float}
+% % Create new "listing" float
+% \newfloat{listing}{tbhp}{lst}%[section]
+% \floatname{listing}{Listing}
+
+%Allow big floats:
+\renewcommand{\topfraction}{.95}
+\renewcommand{\bottomfraction}{.8}
+\renewcommand{\textfraction}{.05}		%Allow minimal text with figures
+\renewcommand{\floatpagefraction}{.85}		% require fuller float pages
+	% N.B.: floatpagefraction MUST be less than topfraction !!
+\renewcommand{\dbltopfraction}{.66}
+\renewcommand{\dblfloatpagefraction}{.8}
+
+% Command to set caption styles
+\usepackage{etoolbox} 		%Needed for AtBeginEnvironment
+\captionnamefont{\bfseries\small}
+\captiontitlefont{\small}
+\subcaptionlabelfont{\bfseries\small}
+\subcaptionfont{\footnotesize}
+
+\renewcommand{\figurename}{Fig.}
+
+%For subappendices:
+\usepackage{appendix}
+\usepackage{chngcntr}
+\AtBeginEnvironment{subappendices}{%
+  \chapter*{Appendix}
+  \addcontentsline{toc}{chapter}{Appendices}
+  \counterwithin{figure}{section}
+  \counterwithin{table}{section}
+}
+\AtEndEnvironment{subappendices}{%
+  \counterwithout{figure}{section}
+  \counterwithout{table}{section}
+}
+
+\renewcommand{\sfdefault}{lmss}
+\usepackage{epstopdf}
+\usepackage{fancybox}
+\usepackage{booktabs}		% For \...rule lines in tables
+
+%\usepackage[style=authoryear, 
+%  sorting=nyt, 
+%  sortcites=true, 
+%  firstinits=true, 
+%  uniquename=false, %2 lines to avoid initials in citations
+%  uniquelist=false, %
+%  doi=false, 
+%  isbn=false, 
+%  autopunct=true, 
+%  maxcitenames=2,
+%%   mincitenames=1,
+%  maxbibnames = 1000,
+%  uniquelist = false,		%Make 2008a, 2008b
+%  backend=biber]{biblatex}
+
+\usepackage{natbib}
+\bibliographystyle{model2-names}
+
+
+\usepackage{amsmath}
+% \usepackage{amsfonts}
+\usepackage{textcomp}						%For \textdegrees
+\usepackage{verbatim}
+\usepackage{amssymb}
+% \usepackage{amsthm}
+\usepackage{array}
+
+% Enumerate with letters
+\usepackage{enumerate}
+
+
+\usepackage{empheq}
+
+% \usepackage[round]{natbib}
+
+
+
+
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{blue}{rgb}{0,0,0.8}
+\definecolor{green}{rgb}{0,0.5,0}
+%\newcommand{\emphc}[1]{}
+\newcommand{\emphc}[1]{\emph{\textcolor{red}{#1}}}
+\newcommand{\emphb}[1]{\emph{\textcolor{blue}{#1}}}
+\newcommand{\modif}[1]{\textcolor{green}{#1}}
+
+
+
+
+
+
+
+%
+%%
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{1}
+
+
+
+
+
+%%%%%%%%%%% CONGO2D %%%%%%%%%
+
+\usepackage{nicefrac}
+\usepackage{xspace}
+\usepackage{multirow}
+% \newcommand{\gmsh}{{\textsc gmsh}\xspace}
+% \newcommand{\rofi}{{\textsc rofi}\xspace}
+\newcommand{\slim}{{\textsc slim}\xspace}
+\newcommand{\Slim}{{\textsc Slim}\xspace}
+\newcommand{\ssh}{{\textsc ssh}\xspace}
+\newcommand{\gebco}{\mbox{\textsc{gebco} 2008}\xspace}
+\newcommand{\ctoh}{{\textsc ctoh}\xspace}
+\newcommand{\rms}{{\textsc rms}\xspace}
+\newcommand{\mtwo}{$\text{M}_{\text{2}}$\xspace}
+\newcommand{\kone}{$\text{K}_{\text{1}}$\xspace}
+\newcommand{\congo}{\mbox{Congo River}\xspace}
+\newcommand{\tin}{t_\text{\textit in}}
+\newcommand{\slimd}{\mbox{{\textsc slim} 2D}\xspace}
+\newcommand{\Slimd}{\mbox{{\textsc Slim} 2D}\xspace}
+\newcommand{\ubar}{\overline{\bm u}}
+\newcommand{\Total}{\mbox{Total \textsc{s.a.}}\xspace}
+\newcommand{\cls}{\textsc{cls}\xspace}
+\newcommand{\mfour}{$\text{M}_{\text{4}}$\xspace}
+\newcommand{\stwo}{$\text{S}_{\text{2}}$\xspace}
+\newcommand{\ntwo}{$\text{N}_{\text{2}}$\xspace}
+\newcommand{\qone}{$\text{Q}_{\text{1}}$\xspace}
+\newcommand{\oone}{$\text{O}_{\text{1}}$\xspace}
+\DeclareSIUnit \year{y}
+\DeclareSIUnit \cmetre{\metre\textsuperscript{\nicefrac{\num{-1}}{3}}}
+\DeclareSIUnit \pmetre{\metre\textsuperscript{\num{0.85}}}
+\DeclareSIUnit \centimetre{\centi\metre}
+
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}} 
+\newcommand{\mychapter}[1]{\clearemptydoublepage \chapter{#1}}
+\newcommand{\mychapterb}[2]{\clearemptydoublepage \chapter[#1]{#2}}
+\newcommand{\mypart}[1]{\clearemptydoublepage \part{#1}}
+\newcommand{\chapternonumber}[1]{\clearemptydoublepage \chapter*{#1 \markboth{#1}{}}\addcontentsline{toc}{chapter}{#1}}
+\newcommand{\sectionnonumber}[1]{\section*{#1 \markright{#1}}\addcontentsline{toc}{section}{#1}}
+\newcommand{\partnonumber}[1]{\clearemptydoublepage \part*{#1 \markboth{#1}{}}\addcontentsline{toc}{part}{#1}}
+
+\newcommand{\bigcell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}} % For multiline cells inside tables
+
+%Set headers at the top of pages
+\nouppercaseheads
+\makepagestyle{mystyle}
+\makeevenhead{mystyle}{\thepage}{}{\itshape\leftmark}
+\makeoddhead{mystyle}{}{}{\thepage}
+\makeevenfoot{mystyle}{}{}{}
+\makeoddfoot{mystyle}{}{}{}
+\makepsmarks{mystyle}{%		Define what's in headers, see p12 of https://www.tug.org/pracjourn/2008-2/madsen/madsen.pdf
+%   \createmark{section-heading-to-use}{define-for-left-or-right-side}{show-sec-nb?}{prefix-to-secNb}{suffix-to-secNb}
+  \createmark{chapter}{left}{shownumber}{Chapter }{ - \ } 
+}
+% Nb: if I have appendices, will need to create new style so it isn't prefixed by Chapter
+
+%   \makeheadrule{mystyle}{\textwidth}{\normalrulethickness}
+% Extend the page numbers (& horiz line) into the margin
+\makerunningwidth{mystyle}{1.\textwidth}
+\makeheadposition{mystyle}{flushright}{flushleft}{flushright}{flushleft}
+\makeheadrule{mystyle}{1.\textwidth}{\normalrulethickness}
+
+\pagestyle{mystyle}
+
+%Ref a footnote
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
+
+%Set the style for the chapter headings
+%\usepackage{fourier} %% I COMMENTED THIS!!
+\DeclareSymbolFont{calletters}{OMS}{cmsy}{m}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{calletters}
+%\usepackage[upright]{fourier}
+\usepackage{soul}
+%\definecolor{nicered}{rgb}{.647,.129,.149}
+\definecolor{nicered}{rgb}{0.5,0.5,0.5}
+\makeatletter
+\newlength\dlf@normtxtw
+\setlength\dlf@normtxtw{\textwidth}
+\def\myhelvetfont{\def\sfdefault{mdput}}
+\newsavebox{\feline@chapter}
+\newcommand\feline@chapter@marker[1][4cm]{%
+  \sbox\feline@chapter{%
+     \resizebox{!}{#1}{\fboxsep=1pt%
+       \colorbox{nicered}{\color{white}\bfseries\sffamily\thechapter}%
+     }}%
+  \rotatebox{90}{%
+     \resizebox{%
+       \heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}%
+     {!}{\scshape\so\@chapapp}}\quad%
+  \raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}%
+}
+\newcommand\feline@chm[1][4cm]{%
+  \sbox\feline@chapter{\feline@chapter@marker[#1]}%
+  \makebox[0pt][l]{% aka \rlap
+     \makebox[1cm][r]{\usebox\feline@chapter}%
+  }}
+\makechapterstyle{daleif1}{
+  \renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so}
+  \renewcommand\chaptitlefont{\normalfont\huge\bfseries\scshape}%\color{nicered}}
+  \renewcommand\chapternamenum{}
+  \renewcommand\printchaptername{}
+  \renewcommand\printchapternum{\null\hfill\feline@chm[3cm]\hspace*{1cm}\par}
+  \renewcommand\afterchapternum{\par\vskip\midchapskip}
+  \renewcommand\printchaptertitle[1]{\chaptitlefont\raggedleft ##1\par}
+}
+\makeatother
+\chapterstyle{daleif1}
+
+
+
+%\newenvironment{abstract}{
+%\begin{center}
+%\begin{minipage}{0.85\textwidth}
+%\begin{center}\textbf{Abstract}\end{center}
+%\small
+%}{
+%\end{minipage}
+%\end{center}
+%}
+
+
+% \newenvironment{paperresume}{%
+% %\small
+% \noindent\rule{\textwidth}{0.2mm}%\\[5mm]
+%   \list{}{%
+%     \leftmargin 0.025\textwidth
+%     \rightmargin \leftmargin
+%   }%
+%   \item[]
+% }
+% {\endlist
+% \noindent\rule{\textwidth}{0.2mm}%\\[5mm]
+% }
+% \newcommand {\myrule}{ \noindent\rule{\textwidth}{0.2mm}}
+
+% \newcommand{\getbibliographyitem}[1]{
+% \immediate\write18{./singleref #1}
+% \vspace*{-0.5em}
+% \renewcommand{\prebackcite}{}
+% \renewcommand{\postbackcite}{}
+% \input{tmp.bbl}
+% \renewcommand{\prebackcite}{Cited on p.~}
+% \renewcommand{\postbackcite}{.}
+% }
+
+
+%% shortcuts for formulae
+% \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+% \newcommand{\diff}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
+% \newcommand{\bnabla}{\bm{\nabla}}
+% \newcommand{\bu}{\bm{u}}
+% \newcommand{\bbu}{\bm{\bar{u}}}%
+% \newcommand{\bub}{\bm{u}_b}%{\underaccent{\bar}{u}_b}%
+% \newcommand{\bw}{\bm{w}}%{\underaccent{\bar}{W}}%{\bm{W}}
+
+% \newcommand{\vint}[2][K]{\Big\langle #2  \Big\rangle_{\!\!#1}}
+% \newcommand{\vintsmall}[2][K]{\big\langle #2  \big\rangle_{\!#1}}
+% \newcommand{\sint}[2][e]{\Big\langle\!\!\Big\langle #2 \Big\rangle\!\!\Big\rangle_{\!\!#1}}
+% \newcommand{\sintsmall}[2][e]{\big\langle\!\big\langle #2 \big\rangle\!\big\rangle_{\!\!#1}}
+% \newcommand{\lint}[2][e]{\Big\langle\!\!\Big\langle\!\!\Big\langle #2 \Big\rangle\!\!\Big\rangle\!\!\Big\rangle_{\!\!#1}}
+% \newcommand{\mean}[1]{\{#1\}}
+% \newcommand{\jump}[1]{[#1]}
+% \newcommand{\maxi}[1]{\lceil#1\rceil}
+% \newcommand{\roe}[1]{#1_\text{Roe}}
+% \newcommand{\bpsi}{\bm{\psi}}
+% \newcommand{\bn}{\bm{n}}
+% \newcommand{\bt}{\bm{t}}
+% \newcommand{\bq}{\bm{q}}
+% \newcommand{\bx}{\bm{x}}
+
+% \newcommand{\bbarU}{\bar{\bm{U}}}
+% \newcommand{\btau}{\bm{\tau}}
+% \newcommand{\br}{\bm{r}}
+
+% \newcommand{\BE}{ \begin{enumerate}}
+% \newcommand{\EE}{ \end{enumerate}}
+% \newcommand{\BI}{ \begin{itemize}}
+% \newcommand{\EI}{ \end{itemize}}
+% \newcommand{\BEQ}{ \begin{equation}}
+% \newcommand{\EEQ}{ \end{equation}}
+% \newcommand{\BDM}{ \begin{displaymath}}
+% \newcommand{\EDM}{ \end{displaymath}}
+% \newcommand{\ds}{\displaystyle}
+% \newcommand{\ud}{\textrm{ d}}
+% \newcommand{\BTc}{ \begin{tabular}{c}}
+% \newcommand{\BTcc}{ \begin{tabular}{cc}}
+% \newcommand{\BTl}{ \begin{tabular}{l}}
+% \newcommand{\BTr}{ \begin{tabular}{r}}
+% \newcommand{\ET}{ \end{tabular}}
+% \newcommand{\BS}{ \begin{small}}
+% \newcommand{\ES}{ \end{small}}
+% \newcommand{\BEQQ}{ \begin{equation*}}
+% \newcommand{\EEQQ}{ \end{equation*}}
+
+
+\definecolor{darkgreen}{rgb}{0.0,.6,0.0}

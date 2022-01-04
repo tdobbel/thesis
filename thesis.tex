@@ -1,0 +1,88 @@
+\documentclass[twoside,12pt,a4paper,openright]{memoir}
+\maxsecnumdepth{subsubsection}			%Automatically number sections down to ``section'' level
+\setsecnumdepth{subsubsection}
+% \hyphenation{de-leer-snij-der}
+\usepackage[utf8]{inputenc}			%Optimal font encoding for most latin languages
+\usepackage[T1]{fontenc}
+\usepackage{changepage}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{lipsum}
+\input{include/specific_headers.tex}
+\newcommand{\GG}[1]{}
+\pgfplotsset{compat=1.15}
+\usepackage[pdftex,linktocpage]{hyperref}		%For hyperlinks within doc, and setting doc info
+\hypersetup{pdftitle={How modeling tools can inform coral reef management in Florida}}
+\hypersetup{pdfauthor={Thomas DOBBELAERE}}
+\hypersetup{pdfsubject={How modeling tools can inform coral reef management in Florida}}
+\hypersetup{pdfkeywords={Biophysical modeling, Florida Coral Reef, SCTLD, SLIM}}
+% % Comment out next hypersetup section for print version:
+%\hypersetup{
+%  colorlinks=true,
+%  citecolor=blue,
+%  linkcolor=blue,
+%  urlcolor=blue
+%}
+\hypersetup{
+  colorlinks=true,
+  citecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+% % % %   citebordercolor={0.8 0.8 0.8},
+% % % %   filebordercolor={0.8 0.8 0.8},
+% % % %   linkbordercolor={0.8 0.8 0.8},
+% % % %   menubordercolor={0.8 0.8 0.8},
+% % % %   urlbordercolor={0.8 0.8 0.8},
+% % % %   runbordercolor={0.8 0.8 0.8} 
+
+
+% \usepackage{cmbright}				%TODO: this doesn't compile when I add it *** Font: Computer modern bright
+% \usepackage{sfmath}				%Display all maths with sans serif font
+
+\newcommand{\hycom}{\textsc{hycom} }
+\newcommand{\ie}{\textit{i.e}} 
+\newcommand{\eg}{\textit{e.g.}}
+
+\begin{document}
+\frontmatter
+  \input{include/title}
+  \clearemptydoublepage
+  \input{include/abstract}
+  %\clearemptydoublepage
+  \input{include/thanks}
+  \clearemptydoublepage
+  \tableofcontents
+  \clearemptydoublepage
+  % \input{include/glossary}
+  % \clearemptydoublepage
+  \mainmatter 
+%%%%
+\mychapter{Introduction} \label{chap:intro}
+ \input{chapters/intro/intro}    
+%%
+%%%%%% 
+  \mychapter{Modeling the spread of SCTLD in Florida} \label{chap:sctld}
+  \chaptermark{Modeling the spread of SCTLD in Florida}  
+  \input{chapters/sctld/sctld}
+%%
+% \mychapter{Paper Dry Tortugas} \label{chap:ontario}
+% \chaptermark{Paper DRTO}  
+%   \input{chapters/ontario/ontario}
+%
+% \mychapter{Paper onset} \label{chap:eigenmode}
+% \chaptermark{Paper onset}  
+%   \input{chapters/eigenmode/eigenmode}
+%%%   
+%%%%%%%%%%%
+%
+%%%%%  
+%%%
+  \mychapter{Conclusions and perspectives} \label{chap:conclusion}
+  \input{chapters/conclusions/conclusions}    
+%%
+%
+  \clearemptydoublepage
+  \bibliography{include/bibliography.bib}
+
+\end{document}
