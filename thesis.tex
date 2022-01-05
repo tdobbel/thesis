@@ -40,10 +40,6 @@
 % \usepackage{cmbright}				%TODO: this doesn't compile when I add it *** Font: Computer modern bright
 % \usepackage{sfmath}				%Display all maths with sans serif font
 
-\newcommand{\hycom}{\textsc{hycom} }
-\newcommand{\ie}{\textit{i.e}} 
-\newcommand{\eg}{\textit{e.g.}}
-
 \begin{document}
 \frontmatter
   \input{include/title}
@@ -62,9 +58,14 @@
  \input{chapters/intro/intro}    
 %%
 %%%%%% 
-  \mychapter{Modeling the spread of SCTLD in Florida} \label{chap:sctld}
-  \chaptermark{Modeling the spread of SCTLD in Florida}  
-  \input{chapters/sctld/sctld}
+\mychapter{Modeling the spread of SCTLD in Florida} \label{chap:sctld}
+\chaptermark{Modeling the spread of SCTLD in Florida}  
+\input{chapters/sctld/sctld}
+
+\mychapter{Impacts of hurricanes on wave-induced ocean transport
+processes} \label{chap:irma}
+\chaptermark{Wave-induced transport under hurricanes}  
+\input{chapters/irma/irma}
 %%
 % \mychapter{Paper Dry Tortugas} \label{chap:ontario}
 % \chaptermark{Paper DRTO}  
