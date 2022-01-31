@@ -1,0 +1,360 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{34}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Aeby et~al.(2019)Aeby, Ushijima, Campbell, Jones, Williams, Meyer,
+  Hase and Paul}]{aeby2019pathogenesis}
+\bibinfo{author}{Aeby, G.}, \bibinfo{author}{Ushijima, B.},
+  \bibinfo{author}{Campbell, J.E.}, \bibinfo{author}{Jones, S.},
+  \bibinfo{author}{Williams, G.}, \bibinfo{author}{Meyer, J.L.},
+  \bibinfo{author}{Hase, C.}, \bibinfo{author}{Paul, V.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Pathogenesis of a tissue loss disease affecting
+  multiple species of corals along the {F}lorida {R}eef {T}ract}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{6},
+  \bibinfo{pages}{678}.
+%Type = Article
+\bibitem[{Aronson and Precht(2001)}]{aronson2001white}
+\bibinfo{author}{Aronson, R.B.}, \bibinfo{author}{Precht, W.m.F.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{White-band disease and the changing face of
+  {C}aribbean coral reefs}.
+\newblock \bibinfo{journal}{The ecology and etiology of newly emerging marine
+  diseases} , \bibinfo{pages}{25--38}.
+%Type = Article
+\bibitem[{Barnes et~al.(2015)Barnes, Hu, Kovach and
+  Silverstein}]{barnes2015sediment}
+\bibinfo{author}{Barnes, B.B.}, \bibinfo{author}{Hu, C.},
+  \bibinfo{author}{Kovach, C.}, \bibinfo{author}{Silverstein, R.N.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Sediment plumes induced by the {P}ort of {M}iami
+  dredging: {A}nalysis and interpretation using {L}andsat and {MODIS} data}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{volume}{170}, \bibinfo{pages}{328--339}.
+%Type = Article
+\bibitem[{Brandt and McManus(2009)}]{brandt2009dynamics}
+\bibinfo{author}{Brandt, M.E.}, \bibinfo{author}{McManus, J.W.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Dynamics and impact of the coral disease white
+  plague: insights from a simulation model}.
+\newblock \bibinfo{journal}{Diseases of aquatic organisms}
+  \bibinfo{volume}{87}, \bibinfo{pages}{117--133}.
+%Type = Article
+\bibitem[{Cunning et~al.(2019)Cunning, Silverstein, Barnes and
+  Baker}]{cunning2019extensive}
+\bibinfo{author}{Cunning, R.}, \bibinfo{author}{Silverstein, R.N.},
+  \bibinfo{author}{Barnes, B.B.}, \bibinfo{author}{Baker, A.C.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Extensive coral mortality and critical habitat loss
+  following dredging and their association with remotely-sensed sediment
+  plumes}.
+\newblock \bibinfo{journal}{Marine pollution bulletin} \bibinfo{volume}{145},
+  \bibinfo{pages}{185--199}.
+%Type = Article
+\bibitem[{Dobbelaere et~al.(2020)Dobbelaere, Muller, Gramer, Holstein and
+  Hanert}]{dobbelaere2020coupled}
+\bibinfo{author}{Dobbelaere, T.}, \bibinfo{author}{Muller, E.M.},
+  \bibinfo{author}{Gramer, L.J.}, \bibinfo{author}{Holstein, D.M.},
+  \bibinfo{author}{Hanert, E.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Coupled epidemio-hydrodynamic modeling to understand
+  the spread of a deadly coral disease in {F}lorida}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{7},
+  \bibinfo{pages}{1016}.
+%Type = Article
+\bibitem[{Dobbelaere et~al.(\noop{2022} in press 2022)Dobbelaere, Muller,
+  Gramer, Holstein and Hanert}]{dobbelaere2022}
+\bibinfo{author}{Dobbelaere, T.}, \bibinfo{author}{Muller, E.M.},
+  \bibinfo{author}{Gramer, L.J.}, \bibinfo{author}{Holstein, D.M.},
+  \bibinfo{author}{Hanert, E.}, \bibinfo{year}{\noop{2022} in press 2022}.
+\newblock \bibinfo{title}{Connecting the dots: {T}ransmission of stony coral
+  tissue loss disease from the marquesas to the {D}ry {T}ortugas}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science}
+  \DOIprefix\doi{10.3389/fmars.2022.778938}.
+%Type = Article
+\bibitem[{Eaton et~al.(2021)Eaton, Landsberg, Kiryu, Peters and
+  Muller}]{eaton2021measuring}
+\bibinfo{author}{Eaton, K.R.}, \bibinfo{author}{Landsberg, J.H.},
+  \bibinfo{author}{Kiryu, Y.}, \bibinfo{author}{Peters, E.C.},
+  \bibinfo{author}{Muller, E.M.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Measuring stony coral tissue loss disease induction
+  and lesion progression within two intermediately susceptible species,
+  {M}ontastraea cavernosa and {O}rbicella faveolata}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} ,
+  \bibinfo{pages}{1287}.
+%Type = Article
+\bibitem[{Erftemeijer et~al.(2012)Erftemeijer, Riegl, Hoeksema and
+  Todd}]{erftemeijer2012environmental}
+\bibinfo{author}{Erftemeijer, P.L.}, \bibinfo{author}{Riegl, B.},
+  \bibinfo{author}{Hoeksema, B.W.}, \bibinfo{author}{Todd, P.A.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Environmental impacts of dredging and other sediment
+  disturbances on corals: a review}.
+\newblock \bibinfo{journal}{Marine pollution bulletin} \bibinfo{volume}{64},
+  \bibinfo{pages}{1737--1765}.
+%Type = Article
+\bibitem[{Estrada-Sald{\'\i}var et~al.(2021)Estrada-Sald{\'\i}var,
+  Quiroga-Garc{\'\i}a, P{\'e}rez-Cervantes, Rivera-Garibay and
+  Alvarez-Filip}]{estrada2021effects}
+\bibinfo{author}{Estrada-Sald{\'\i}var, N.},
+  \bibinfo{author}{Quiroga-Garc{\'\i}a, B.A.},
+  \bibinfo{author}{P{\'e}rez-Cervantes, E.}, \bibinfo{author}{Rivera-Garibay,
+  O.O.}, \bibinfo{author}{Alvarez-Filip, L.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Effects of the stony coral tissue loss disease
+  outbreak on coral communities and the benthic composition of cozumel reefs}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{8},
+  \bibinfo{pages}{306}.
+%Type = Article
+\bibitem[{Figueiredo et~al.(2013)Figueiredo, Baird and
+  Connolly}]{figueiredo2013synthesizing}
+\bibinfo{author}{Figueiredo, J.}, \bibinfo{author}{Baird, A.H.},
+  \bibinfo{author}{Connolly, S.R.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Synthesizing larval competence dynamics and
+  reef-scale retention reveals a high potential for self-recruitment in
+  corals}.
+\newblock \bibinfo{journal}{Ecology} \bibinfo{volume}{94},
+  \bibinfo{pages}{650--659}.
+%Type = Article
+\bibitem[{Fourney and Figueiredo(2017)}]{fourney2017additive}
+\bibinfo{author}{Fourney, F.}, \bibinfo{author}{Figueiredo, J.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Additive negative effects of anthropogenic
+  sedimentation and warming on the survival of coral recruits}.
+\newblock \bibinfo{journal}{Scientific reports} \bibinfo{volume}{7},
+  \bibinfo{pages}{1--8}.
+%Type = Article
+\bibitem[{Fringer et~al.(2019)Fringer, Dawson, He, Ralston and
+  Zhang}]{fringer2019future}
+\bibinfo{author}{Fringer, O.B.}, \bibinfo{author}{Dawson, C.N.},
+  \bibinfo{author}{He, R.}, \bibinfo{author}{Ralston, D.K.},
+  \bibinfo{author}{Zhang, Y.J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{The future of coastal and estuarine modeling:
+  {F}indings from a workshop}.
+\newblock \bibinfo{journal}{Ocean Modelling} \bibinfo{volume}{143},
+  \bibinfo{pages}{101458}.
+%Type = Article
+\bibitem[{Frys et~al.(2020)Frys, Saint-Amand, Le~H{\'e}naff, Figueiredo, Kuba,
+  Walker, Lambrechts, Vallaeys, Vincent and Hanert}]{frys20}
+\bibinfo{author}{Frys, C.}, \bibinfo{author}{Saint-Amand, A.},
+  \bibinfo{author}{Le~H{\'e}naff, M.}, \bibinfo{author}{Figueiredo, J.},
+  \bibinfo{author}{Kuba, A.}, \bibinfo{author}{Walker, B.},
+  \bibinfo{author}{Lambrechts, J.}, \bibinfo{author}{Vallaeys, V.},
+  \bibinfo{author}{Vincent, D.}, \bibinfo{author}{Hanert, E.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Fine-scale coral connectivity pathways in the
+  {F}lorida {R}eef {T}ract: {I}mplications for conservation and restoration}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{7},
+  \bibinfo{pages}{312}.
+%Type = Article
+\bibitem[{Geuzaine and Remacle(2009)}]{geuzaine2009gmsh}
+\bibinfo{author}{Geuzaine, C.}, \bibinfo{author}{Remacle, J.F.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Gmsh: A {3-D} finite element mesh generator with
+  built-in pre-and post-processing facilities}.
+\newblock \bibinfo{journal}{International journal for numerical methods in
+  engineering} \bibinfo{volume}{79}, \bibinfo{pages}{1309--1331}.
+%Type = Article
+\bibitem[{Gintert et~al.(2019)Gintert, Precht, Fura, Rogers, Rice, Precht,
+  D’Alessandro, Croop, Vilmar and Robbart}]{gintert2019regional}
+\bibinfo{author}{Gintert, B.E.}, \bibinfo{author}{Precht, W.F.},
+  \bibinfo{author}{Fura, R.}, \bibinfo{author}{Rogers, K.},
+  \bibinfo{author}{Rice, M.}, \bibinfo{author}{Precht, L.L.},
+  \bibinfo{author}{D’Alessandro, M.}, \bibinfo{author}{Croop, J.},
+  \bibinfo{author}{Vilmar, C.}, \bibinfo{author}{Robbart, M.L.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Regional coral disease outbreak overwhelms impacts
+  from a local dredge project}.
+\newblock \bibinfo{journal}{Environmental monitoring and assessment}
+  \bibinfo{volume}{191}, \bibinfo{pages}{1--39}.
+%Type = Article
+\bibitem[{Hamilton and Bachman(1982)}]{hamilton1982sound}
+\bibinfo{author}{Hamilton, E.L.}, \bibinfo{author}{Bachman, R.T.},
+  \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{Sound velocity and related properties of marine
+  sediments}.
+\newblock \bibinfo{journal}{The Journal of the Acoustical Society of America}
+  \bibinfo{volume}{72}, \bibinfo{pages}{1891--1904}.
+%Type = Article
+\bibitem[{Harvell et~al.(2007)Harvell, Jord{\'a}n-Dahlgren, Merkel, Rosenberg,
+  Raymundo, Smith, Weil and Willis}]{harvell2007coral}
+\bibinfo{author}{Harvell, D.}, \bibinfo{author}{Jord{\'a}n-Dahlgren, E.},
+  \bibinfo{author}{Merkel, S.}, \bibinfo{author}{Rosenberg, E.},
+  \bibinfo{author}{Raymundo, L.}, \bibinfo{author}{Smith, G.},
+  \bibinfo{author}{Weil, E.}, \bibinfo{author}{Willis, B.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Coral disease, environmental drivers, and the balance
+  between coral and microbial associates}.
+\newblock \bibinfo{journal}{Oceanography} \bibinfo{volume}{20},
+  \bibinfo{pages}{172--195}.
+%Type = Article
+\bibitem[{Heres et~al.(2021)Heres, Farmer, Elmer and
+  Hertler}]{heres2021ecological}
+\bibinfo{author}{Heres, M.M.}, \bibinfo{author}{Farmer, B.H.},
+  \bibinfo{author}{Elmer, F.}, \bibinfo{author}{Hertler, H.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Ecological consequences of stony coral tissue loss
+  disease in the turks and caicos islands}.
+\newblock \bibinfo{journal}{Coral Reefs} \bibinfo{volume}{40},
+  \bibinfo{pages}{609--624}.
+%Type = Article
+\bibitem[{Jones et~al.(2015)Jones, Ricardo and Negri}]{jones2015effects}
+\bibinfo{author}{Jones, R.}, \bibinfo{author}{Ricardo, G.},
+  \bibinfo{author}{Negri, A.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Effects of sediments on the reproductive cycle of
+  corals}.
+\newblock \bibinfo{journal}{Marine Pollution Bulletin} \bibinfo{volume}{100},
+  \bibinfo{pages}{13--33}.
+%Type = Misc
+\bibitem[{Kramer et~al.(2019)Kramer, Roth and Lang}]{kramer2019map}
+\bibinfo{author}{Kramer, P.}, \bibinfo{author}{Roth, L.},
+  \bibinfo{author}{Lang, J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Map of stony coral tissue loss disease outbreak in
+  the {C}aribbean}.
+\newblock \URLprefix \url{www.agrra.org}. \bibinfo{note}{{ArcGis Online.
+  (accessed June 12, 2020)}}.
+%Type = Article
+\bibitem[{Lambrechts et~al.(2008)Lambrechts, Hanert, Deleersnijder, Bernard,
+  Legat, Remacle and Wolanski}]{lambrechts2008multi}
+\bibinfo{author}{Lambrechts, J.}, \bibinfo{author}{Hanert, E.},
+  \bibinfo{author}{Deleersnijder, E.}, \bibinfo{author}{Bernard, P.E.},
+  \bibinfo{author}{Legat, V.}, \bibinfo{author}{Remacle, J.F.},
+  \bibinfo{author}{Wolanski, E.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{A multi-scale model of the hydrodynamics of the whole
+  {G}reat {B}arrier {R}eef}.
+\newblock \bibinfo{journal}{Estuarine, Coastal and Shelf Science}
+  \bibinfo{volume}{79}, \bibinfo{pages}{143--151}.
+%Type = Techreport
+\bibitem[{MacDonald et~al.(2006)MacDonald, Davies, Zundel, Howlett, Demirbilek,
+  Gailani, Lackey and Smith}]{macdonald2006ptm}
+\bibinfo{author}{MacDonald, N.J.}, \bibinfo{author}{Davies, M.H.},
+  \bibinfo{author}{Zundel, A.K.}, \bibinfo{author}{Howlett, J.D.},
+  \bibinfo{author}{Demirbilek, Z.}, \bibinfo{author}{Gailani, J.Z.},
+  \bibinfo{author}{Lackey, T.C.}, \bibinfo{author}{Smith, J.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{PTM}: particle tracking model. {R}eport 1: {M}odel
+  theory, implementation, and example applications}.
+\newblock \bibinfo{type}{Technical Report}. {E}ngineer {R}esearch {A}nd
+  {D}evelopment {C}enter {V}icksburg {MS} {C}oastal {A}nd {H}ydraulics {L}ab.
+%Type = Article
+\bibitem[{Meiling et~al.(2021)Meiling, Muller, Lasseigne, Rossin, Veglia,
+  MacKnight, Dimos, Huntley, Correa, Smith et~al.}]{meiling2021variable}
+\bibinfo{author}{Meiling, S.S.}, \bibinfo{author}{Muller, E.M.},
+  \bibinfo{author}{Lasseigne, D.}, \bibinfo{author}{Rossin, A.},
+  \bibinfo{author}{Veglia, A.J.}, \bibinfo{author}{MacKnight, N.},
+  \bibinfo{author}{Dimos, B.}, \bibinfo{author}{Huntley, N.},
+  \bibinfo{author}{Correa, A.}, \bibinfo{author}{Smith, T.B.}, et~al.,
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Variable species responses to experimental stony
+  coral tissue loss disease ({SCTLD}) exposure}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{8},
+  \bibinfo{pages}{464}.
+%Type = Article
+\bibitem[{Miller et~al.(2016)Miller, Karazsia, Groves, Griffin, Moore, Wilber
+  and Gregg}]{miller2016detecting}
+\bibinfo{author}{Miller, M.W.}, \bibinfo{author}{Karazsia, J.},
+  \bibinfo{author}{Groves, C.E.}, \bibinfo{author}{Griffin, S.},
+  \bibinfo{author}{Moore, T.}, \bibinfo{author}{Wilber, P.},
+  \bibinfo{author}{Gregg, K.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Detecting sedimentation impacts to coral reefs
+  resulting from dredging the {P}ort of {M}iami, {Florida USA}}.
+\newblock \bibinfo{journal}{PeerJ} \bibinfo{volume}{4}, \bibinfo{pages}{e2711}.
+%Type = Article
+\bibitem[{Muller et~al.(2020)Muller, Sartor, Alcaraz and van
+  Woesik}]{muller2020spatial}
+\bibinfo{author}{Muller, E.M.}, \bibinfo{author}{Sartor, C.},
+  \bibinfo{author}{Alcaraz, N.I.}, \bibinfo{author}{van Woesik, R.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Spatial epidemiology of the stony-coral-tissue-loss
+  disease in {F}lorida}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{7},
+  \bibinfo{pages}{163}.
+%Type = Misc
+\bibitem[{{NOAA}(2018)}]{noaa2018}
+\bibinfo{author}{{NOAA}}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{S}tony {C}oral {T}issue {L}oss {D}isease {C}ase
+  {D}efinition}.
+\newblock \URLprefix
+  \url{https://nmsfloridakeys.blob.core.windows.net/floridakeys-prod/media/
+  docs/20181002-stony-coral-tissue-loss-disease-case-definition.pdf}.
+  \bibinfo{note}{{Accesssed on June 4, 2020}}.
+%Type = Article
+\bibitem[{Precht et~al.(2016)Precht, Gintert, Robbart, Fura and
+  Van~Woesik}]{precht2016unprecedented}
+\bibinfo{author}{Precht, W.F.}, \bibinfo{author}{Gintert, B.E.},
+  \bibinfo{author}{Robbart, M.L.}, \bibinfo{author}{Fura, R.},
+  \bibinfo{author}{Van~Woesik, R.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Unprecedented disease-related coral mortality in
+  {S}outheastern {F}lorida}.
+\newblock \bibinfo{journal}{Scientific reports} \bibinfo{volume}{6},
+  \bibinfo{pages}{1--11}.
+%Type = Article
+\bibitem[{Richardson et~al.(1998)Richardson, Goldberg, Carlton and
+  Halas}]{richardson1998coral}
+\bibinfo{author}{Richardson, L.L.}, \bibinfo{author}{Goldberg, W.M.},
+  \bibinfo{author}{Carlton, R.G.}, \bibinfo{author}{Halas, J.C.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Coral disease outbreak in the {F}lorida {K}eys:
+  plague type {II}}.
+\newblock \bibinfo{journal}{Revista de Biolog{\'\i}a tropical} ,
+  \bibinfo{pages}{187--198}.
+%Type = Article
+\bibitem[{Rosales et~al.(2020)Rosales, Clark, Huebner, Ruzicka and
+  Muller}]{rosales2020rhodobacterales}
+\bibinfo{author}{Rosales, S.M.}, \bibinfo{author}{Clark, A.S.},
+  \bibinfo{author}{Huebner, L.K.}, \bibinfo{author}{Ruzicka, R.R.},
+  \bibinfo{author}{Muller, E.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Rhodobacterales and {R}hizobiales are associated with
+  stony coral tissue loss disease and its suspected sources of transmission}.
+\newblock \bibinfo{journal}{Frontiers in Microbiology} \bibinfo{volume}{11},
+  \bibinfo{pages}{681}.
+%Type = Inproceedings
+\bibitem[{Soulsby et~al.(1997)Soulsby, Whitehouse
+  et~al.}]{soulsby1997threshold}
+\bibinfo{author}{Soulsby, R.}, \bibinfo{author}{Whitehouse, R.}, et~al.,
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Threshold of sediment motion in coastal
+  environments}, in: \bibinfo{booktitle}{Pacific Coasts and Ports'97.
+  Proceedings}, pp. \bibinfo{pages}{149--154}.
+%Type = Article
+\bibitem[{Studivan et~al.(2022)Studivan, Rossin, Rubin, Soderberg, Holstein and
+  Enochs}]{studivan2022reef}
+\bibinfo{author}{Studivan, M.S.}, \bibinfo{author}{Rossin, A.M.},
+  \bibinfo{author}{Rubin, E.}, \bibinfo{author}{Soderberg, N.},
+  \bibinfo{author}{Holstein, D.M.}, \bibinfo{author}{Enochs, I.C.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Reef sediments can act as a stony coral tissue loss
+  disease vector}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} ,
+  \bibinfo{pages}{2046}.
+%Type = Article
+\bibitem[{Sutherland et~al.(2004)Sutherland, Porter and
+  Torres}]{sutherland2004disease}
+\bibinfo{author}{Sutherland, K.P.}, \bibinfo{author}{Porter, J.W.},
+  \bibinfo{author}{Torres, C.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Disease and immunity in {C}aribbean and
+  {I}ndo-{P}acific zooxanthellate corals}.
+\newblock \bibinfo{journal}{Marine ecology progress series}
+  \bibinfo{volume}{266}, \bibinfo{pages}{273--302}.
+%Type = Article
+\bibitem[{Weber et~al.(2012)Weber, De~Beer, Lott, Polerecky, Kohls, Abed,
+  Ferdelman and Fabricius}]{weber2012mechanisms}
+\bibinfo{author}{Weber, M.}, \bibinfo{author}{De~Beer, D.},
+  \bibinfo{author}{Lott, C.}, \bibinfo{author}{Polerecky, L.},
+  \bibinfo{author}{Kohls, K.}, \bibinfo{author}{Abed, R.M.},
+  \bibinfo{author}{Ferdelman, T.G.}, \bibinfo{author}{Fabricius, K.E.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Mechanisms of damage to corals exposed to
+  sedimentation}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{109}, \bibinfo{pages}{E1558--E1567}.
+
+\end{thebibliography}
