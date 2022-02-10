@@ -70,3 +70,40 @@ We have shown that the ocean circulation, and in particular the presence or abse
 Model results suggest a time lag of 5 to 6 months between the moment the hydrodynamics predicted that disease agents reached the DRTO and the moment SCTLD symptoms were observed in the DRTO. This seems to contradict the results of previous modeling and experimental studies that found SCTLD transmission times of 10 days or less \citep{dobbelaere2020coupled, meiling2021variable}. However, several elements might explain a slower development of the disease on the DRTO. First, in situ conditions might significantly differ from the ones of a controlled tank environment, potentially leading to differences in the time required for the first disease lesions to appear. Furthermore, disease transmission in the Florida Keys might occur faster as reefs can receive disease agents from several affected neighboring reefs. In the case of disease agents reaching the fully susceptible population of the DRTO, such interactions with neighboring affected colonies do not take place and the outbreak might therefore require more time to develop. Furthermore, our results suggest that corals of the DRTO could only be exposed to agents coming from the Marquesas in November and December 2020, while exposure to incoming disease agents was continuous in the Keys due to the density of the reef system. Additionally, the epidemiological parameters of \cite{dobbelaere2020coupled} were calibrated on species-averaged prevalence data in the Florida Keys, which might not be representative of the colony composition and environmental conditions in the DRTO. Finally, observational data is dependent on the frequency and spatial distribution of field missions and might therefore give an incomplete picture of the situation on the field. For example, fine scale observations of SCTLD in the Lower Florida Keys found low disease incidence (< 10 colonies) starting in October, and then disease incidence peaked in April 2019 \citep{williams2021fine}. Alternatively, one might argue that this lag between the modeled transmission of the disease agents to the DRTO and the first observations of the SCTLD indicates that the propagation of the disease was not caused by local currents. In that case, another vector, such as ballast waters, might have to be considered. However, such investigations are beyond the scope of the present study.
 
 It is important to note that the time and location of the first observations of an outbreak do not necessarily correspond to its initiation. An epidemic might grow unnoticed during its first stages, as it first develops at a linear rate before growing exponentially. Tools such as the ones developed in the present study might therefore have helped to mitigate the SCTLD during the first stages of its development in the DRTO, before May 2021. Furthermore, this study has shown that strong eddy activity near the DRTO was likely to interrupt connectivity from the Western Florida Keys to the DRTO. Therefore, monitoring eddy activity through satellite observations of sea surface temperature and sea surface elevation anomaly \citep{kourafalou2018physical} might serve as a proxy for reef managers to estimate connectivity between these two areas. The implications of our connectivity results are not limited to the propagation of disease agents and apply to the spread of any type of propagules from the Marquesas and the DRTO. This study therefore brings additional insight on the physical and environmental connectivity in the southwestern part of FCR.
+
+\begin{subappendices}
+	\section{Validation of the model}
+	
+	SLIM outputs were validated against field measurements from tide gauges and ADCP in the Florida Keys and on the shelf (Fig. \ref{fig:a1}). Here, we show the comparison between observed and simulated sea surface elevation and current speed for the month of November 2020. The model accurately reproduces the observed sea surface elevation at all tide gauges (Fig. \ref{fig:a2}) with an RMSE of less than 8 cm. The current velocity on the shelf is also  well reproduced by the model, despite a slight underestimation of the southward component of the observed currents at mooring C10 and C22, located on the 25 m and 70 m isobaths respectively (Fig. \ref{fig:a3}). Using the vector correlation analysis of \citep{kundu1976ekman}, we obtained a correlation factor of 0.9 and a veering angle of 10$^\circ$ between the modeled currents and the observations at station C10. A correlation factor of 0.75 and a veering angle of 8° were obtained at mooring C22. Such values are similar to the performances of previous modeling studies on the West Florida Shelf \cite{liu2020impacts}.
+		
+	\begin{figure}
+		\centering
+		\includegraphics[width=.8\textwidth]{chapters/drto/figures/a1.JPEG}
+		\caption{Mesh of the computational domain with the location of the stations used for the validation of the model outputs. Land is shown in dark gray.}
+		\label{fig:a1}
+	\end{figure}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{chapters/drto/figures/a2.png}
+		\caption{Comparison of SLIM sea surface elevation against tide gauge elevation in November 2020. The tidal signal is well reproduced at all stations with an RMSE of less than 8 cm.}
+		\label{fig:a2}
+	\end{figure}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{chapters/drto/figures/a3.png}
+		\caption{Comparison of SLIM currents with depth-averaged ADCP measurements at mooring C10 and C22 in November 2020. Despite a slight underestimation of their southward component, currents and their oscillations are well reproduced by the model.}
+		\label{fig:a3}
+	\end{figure}
+		
+	SLIM relies on its coupling with HYCOM GoM to accurately reproduce the Loop Current (LC)-Florida Current (FC) system. HYCOM’s surface fields were therefore compared with sea surface temperature data from the Group for High Resolution Sea Surface Temperature (GHRSST; \url{https://www.ghrsst.org/}). HYCOM reproduces well the penetration of the LC in the Gulf of Mexico (Fig. \ref{fig:a4}), which is key to simulating the eddy activity linked to the meandering of the FC near the DRTO.
+	
+		\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{chapters/drto/figures/a4.JPEG}
+		\caption{Comparison of (\textbf{A}) satellite-derived sea surface temperature from the Group for High Resolution Sea Surface Temperature (GHRSST) against (\textbf{B}) sea surface temperature, (\textbf{C}) sea surface height (SSH) and (\textbf{D}) surface current magnitude modeled by HYCOM. All panels are snapshots of November 15, 2019 at 0000 UTC.  The model reproduces well the penetration of the LC in the Gulf of Mexico.}
+		\label{fig:a4}
+	\end{figure}
+	
+\end{subappendices}
