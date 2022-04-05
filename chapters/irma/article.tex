@@ -102,7 +102,8 @@ SLIM's governing equations are integrated using an implicit time integration sch
 \begin{figure}
     \centering
     \includegraphics[width=.99\textwidth]{chapters/irma/figures/coupling_v2.png}
-    \caption{Schematic illustration of the coupled SLIM+SWAN model.}
+    \caption{Schematic illustration of the coupled SLIM+SWAN model. \modif{Both models run on the same computational cores and mesh. SLIM is run first and passes the wind velocity $U_{10}$, water level $\eta$, depth-averaged current $u$ and bottom roughness length $z_0$ to SWAN. SWAN then uses these quantities to compute the wave radiation stress gradient $\text{\boldmath$\tau$}_\text{wave}$, that is then passed
+    to SLIM as the force exerted by waves on currents. SLIM then uses this quantity to update the value of the surface stress $\text{\boldmath$\tau$}_s$, computed as the combination of wind and wave stresses $\text{\boldmath$\tau$}_\text{wind} + \text{\boldmath$\tau$}_\text{wave}$}}
     \label{fig:coupling}
 \end{figure}
 
@@ -113,7 +114,7 @@ To quantify the impact of wave-current interactions on transport processes, we c
 \begin{figure}
     \centering
     \includegraphics[width=.95\textwidth]{chapters/irma/figures/figure_initial_positions.png}
-    \caption{Release regions of the passive particles on the inner and outer shelves on Sept 7 at 0000 UTC (red and blue clouds) obtained by backtracking particles released in the red and blue circular areas during the passage of Irma.}
+    \caption{Release regions of the passive particles on the inner and outer shelves on Sept 7 at 0000 UTC (red and blue clouds) obtained by backtracking particles released in the red and blue circular areas during the passage of Irma. \modif{These clouds give a probabilistic picture of the positions from which particles should have been released to intersect the path of the center of the hurricane}}
     \label{fig:init}
 \end{figure}
 
