@@ -44,8 +44,9 @@ Ocean currents generated during Hurricane Irma around South Florida were modeled
 \begin{equation}
     \begin{split}
         \dfrac{\partial H}{\partial t} +\nabla\cdot(\UV) =& ~0~, \\
-        \dfrac{\partial \UV}{\partial t}  + \nabla\cdot\left(\dfrac{\UV\UV}{H}\right) + f\mathbf{e}_z \times \UV =& ~\alpha gH\nabla(H-h) - \dfrac{1}{\rho}\nabla p_\text{atm} + \dfrac{1}{\rho}\text{\boldmath$\tau$}_s \\
-         &+\nabla\cdot(\nu\nabla\UV) - \dfrac{C_b}{H^2}|\UV|\UV + \gamma(\UV_\text{ref}-\UV)~,
+        \dfrac{\partial \UV}{\partial t}  + \nabla\cdot\left(\dfrac{\UV\UV}{H}\right) + f\mathbf{e}_z \times \UV =& ~\alpha gH\nabla(H-h) - \dfrac{1}{\rho}\nabla p_\text{atm} \\
+         &+ \dfrac{1}{\rho}\text{\boldmath$\tau$}_s +\nabla\cdot(\nu\nabla\UV) \\
+         &- \dfrac{C_b}{H^2}|\UV|\UV + \gamma(\UV_\text{ref}-\UV)~,
     \end{split} \label{eq:slim}
 \end{equation}
 where $H$ is the water column height and $\UV$ is the depth-averaged transport; $f$ is the Coriolis coefficient; $g$ is the gravitational acceleration; $h$ is the bathymetry; $\alpha$ is a coefficient indicating whether the mesh element is wet ($\alpha=1$) or dry ($\alpha=0$) \citep{le2020implicit}; $\nu$  is the Smagorinsky viscosity; $C_b$ is the bulk bottom drag coefficient; $p_\text{atm}$ is the atmospheric pressure; {\boldmath$\tau$}$_s$ is the surface stress, usually due to wind; and $\gamma$ is a relaxation coefficient towards a reference transport $\UV_\text{ref}$. As this study focuses on transport processes and not coastal flooding, wetting-drying is only applied on wet grid cells that may become dry under the influence of the hurricane. As in \cite{frys2020fine} and \cite{dobbelaere2020coupled}, SLIM currents were gradually relaxed towards the operational Navy HYbrid Coordinate Ocean Model (HYCOM) product (GOMl0.04\footnote{\url{https://www.hycom.org/data/goml0pt04}}, \cite{chassignet2007hycom}) in regions where the water depth exceeds 50 m. HYCOM's 3D currents were depth-integrated into 2D transports to be used as forcing in the model. Moreover, these transports as well as HYCOM's sea surface elevation were used as boundary condition in the model.
@@ -129,7 +130,7 @@ To quantify the impact of wave-current interactions on transport processes, we c
 %        SLIM+Stokes-C      & Eulerian currents from the uncoupled SLIM run with the Stokes drift from the coupled SLIM+SWAN simulation \\ \hline
 %        SLIM+SWAN+Stokes-C & Eulerian currents impacted by the RS gradient and the Stokes drift from the coupled SLIM+SWAN simulation \\ \hline
 %    \end{tabular}
-    \begin{tabular}{|p{4.5cm}|p{4cm}|p{4cm}|}
+    \begin{tabular}{|p{3.5cm}|p{3.25cm}|p{3.2cm}|}
         \hline
         \textbf{Experiment name} & \textbf{Eulerian currents from} &  \textbf{Stokes drift from}\\ \hline
         SLIM               & uncoupled SLIM simulation & None \\ \hline
@@ -186,7 +187,7 @@ The simulated significant wave height agrees well with observations at all buoy 
 
 \begin{table}
     \centering
-    \begin{tabular}{|p{2.8cm}p{3cm}p{1.8cm}p{1.8cm}p{1.8cm}|}
+    \begin{tabular}{|p{2.3cm}p{2.3cm}p{1.3cm}p{1.3cm}p{1.3cm}|}
         \hline
         \textbf{Station} & \textbf{Variable} & \textbf{Bias} & \textbf{MAE} & \textbf{RMSE} \\
         \hline
